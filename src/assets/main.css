@@ -1,0 +1,191 @@
+@import './base.css';
+
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+}
+
+#file{
+  width: 100%;
+  height: 20px;
+  min-width: 98%; 
+  border-radius: 100px;
+}
+
+#file::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress {
+  height: 24px;
+  width: 70% !important;
+  border: 1px solid #1ec794;
+  border-radius: .625rem;
+  margin: 0 10px;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 3.875rem;
+  border-color: #1ec794;
+}
+
+progress::-webkit-progress-value {
+  background-color: #1cc794;
+  border-radius: 3.875rem;
+}
+
+#pBar {
+  background-color: white;
+  padding-top: 2rem;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.wrapper{
+  padding: 2rem;
+  color: black;
+  background-color: #ffffff;
+}
+  
+.wrapper h2 {
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+#backButton{
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56rem;
+  font-size: 1.31rem;
+  border: solid 0.12rem #1ec794;
+  background: #ffffff;
+  color: #1ec794;
+  padding-left: 0.93rem;
+  padding-right: 0.93rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+#nextButton{
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56rem;
+  font-size: 1.31rem;
+  border: solid 0.12rem #1ec794;
+  background: #1ec794 ;
+  color: #ffffff;
+  padding-left: 0.93rem;
+  padding-right: 0.93rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.select{
+  display: flex;
+  justify-content: center;
+}
+
+.min-5, .min-10, .min-20{
+  width: 17.75rem;
+  height: 16rem;
+  background-color: #02215c;
+  margin: 2.5rem;
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56rem;
+}
+
+#select-min{
+  position: relative;
+  margin-top: 23%;
+  margin-left: 35%;
+  border-top-left-radius: 1.56rem;
+  border-top-right-radius: 1.56rem;
+  border-bottom-left-radius: 1.56rem;
+  border-bottom-right-radius: 1.56rem;
+  font-size: 1.31rem;
+  border: solid 0.12rem #1ec794;
+  background: #1ec794 ;
+  color: #ffffff;
+  padding-left: 0.93rem;
+  padding-right: 0.93rem;
+  cursor: pointer;
+}
+
+.image{
+  background-image: url(@/assets/images/iconsprite.png) ;
+  background-position: -0.62rem -0.25rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-top: 27%;
+  margin-left: 38%;
+}
+
+.min-5 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.min-10 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.min-20 h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+#Title{
+  margin-top: 1%;
+  font-size: 2.604vw;
+  color: #0f2230;
+}
+
+#underTitle{
+  margin-top: 1%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+#homeDescription{
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.8rem;
+  font-size: 1.5vw;
+  padding: 0 8.2rem 0 8.2rem !important;
+  line-height: 1.1;
+  color: #0f2230;
+
+}
+
+#selectTime{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  font-family: Helvetica;
+  font-size: 2vw;
+  color: #0f2230;
+
+}
