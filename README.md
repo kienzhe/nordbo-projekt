@@ -1,4 +1,3 @@
-Udviklet af:
 Udviklere af projektet:
 Kim Le, Kontakt: kienALL@outlook.dk
 Simon Kjellerup, Kontakt: sikj96@gmail.com
